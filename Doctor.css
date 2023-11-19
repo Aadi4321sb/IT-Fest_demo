@@ -1,0 +1,48 @@
+*{
+    margin: 0%; 
+    padding: 0%; 
+} 
+body{ 
+    background-color: #fffcc3; 
+} 
+.Upcontainer { 
+    background-color: rgb(103, 166, 248); 
+    height: 38.718748093rem; 
+} 
+.Upcontainer .unline{ 
+    display: flex; } .Upcontainer .unline h4{ color: transparent; background-image: linear-gradient(#fff, #fff); 
+        -webkit-background-clip: text; background-repeat:no-repeat; background-position: -750px 0; animation: bgcolor 5s linear infinite alternate; } @keyframes bgcolor{ 50%{background-position: 0px 0;} 100%{background-position: 0px 0;} } .product .unline h4{ margin-top: 7rem; } .product .nleft h2{ font-size: 3.1rem; -webkit-text-stroke: 2px #fff; text-shadow: 2px 2px 5px rgb(7, 5, 5); } .product .unline{ font-size: 1.8rem; -webkit-text-stroke: 1px #000; text-shadow: 2px 2px 5px beige; } .product .nleft h3{ font-size: 2.1rem; -webkit-text-stroke: 1px #fff; text-shadow: 2px 2px 5px rgb(7, 5, 5); } .product .nleft{ margin-top: 7rem; } 
+    .imgcontain img
+    { 
+        position: relative; 
+        left: 50rem;
+        top: -24rem; 
+        border-style: solid; 
+        border-width: 10px;
+        animation: fadeIn ease 2s;
+        animation-iteration-count: 1;
+        animation-fill-mode: forwards;
+    }
+    @keyframes fadeIn{
+        0%{opacity:0;}
+        100%{opacity:100%;}
+    }
+    .navcontainer{
+        display:flex;
+        height:7rem;
+        font-family: "Nanum Gothic";
+        align-items: center;
+        justify-content: space-between;
+    }
+    .nav{
+        display: flex;
+    }
+    .nav h3{
+        font-size: 1.3rem;
+    }
+    a{
+        text-decoration: none;
+    }
+    .nav h5{
+        font-size: .8rem;
+    }
